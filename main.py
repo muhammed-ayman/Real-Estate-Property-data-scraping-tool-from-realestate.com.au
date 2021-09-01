@@ -98,7 +98,7 @@ class RealStateSiteScraper():
             if not db.check_product(product['product_link']):
                 db.insert_product_data(product['product_id'],product['product_link'],product['product_main_image'],product['product_beds'],product['product_price'],product['product_land_size'],product['product_street'],product['product_suburb'])
 
-// The cookies need to be updated manually
+# The cookies need to be updated manually
 
 headers = {
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
